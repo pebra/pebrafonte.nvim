@@ -4,7 +4,7 @@ local cmd = vim.cmd
 local g = vim.g
 local fn = vim.fn
 
-local background = vim.o.background or 'dark'
+local background = vim.o.background or 'light'
 
 local none = 'none'
 local colors = {
