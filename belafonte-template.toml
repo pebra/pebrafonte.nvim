@@ -1,0 +1,46 @@
+[information]
+ name = "belafonte"
+ background = "light"
+ author = 'Pebra'
+
+#
+#  let s:guishade0 = "#D3CBBE"
+#  let s:guishade1 = "#250F1D"
+#  let s:guishade2 = "#21121C"
+#  let s:guishade3 = "#250F1D"
+#  let s:guishade4 = "#000000"
+#  let s:guishade5 = "#000000"
+#  let s:guishade6 = "#250F1D"
+#  let s:guishade7 = "#250F1D"
+#  let s:guiaccent0 = "#A0251C"
+#  let s:guiaccent1 = "#507885"
+#  let s:guiaccent2 = "#9F6037"
+#  let s:guiaccent3 = "#2A9D7E"
+#  let s:guiaccent4 = "#297F68"
+#  let s:guiaccent5 = "#507885"
+#  let s:guiaccent6 = "#605C43"
+#  let s:guiaccent7 = "#9E4771"
+# --bone: #d3cbbeff;
+# --dark-purple: #250f1dff;
+# --engineering-orange: #c01e12ff;
+# --battleship-gray: #908c71ff;
+# --earth-yellow: #e1ab5cff;
+# --paynes-gray: #507885ff;
+# --raw-umber: #9f6037ff;
+# --cadet-gray: #a1a2a4ff;
+# --battleship-gray-2: #9f968fff;
+[palette]
+ fg = '#250f1d'
+ bg = '#d3cbbe'
+ white = '#BEBFC1'
+ gray = '#a1a2a4'
+ blue = '#507885'
+ green = '#908C71'
+ green = '#2a9d7e'
+ cyan = '#297f68'
+ red = '#A0251C'
+ orange = '#9F6037'
+ yellow = '#DDAB5F'
+ purple = '#b668cd'
+ magenta = '#9e4771'
+ accent6 = '#605c43'
