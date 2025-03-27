@@ -155,7 +155,7 @@ local highlights = function(colors)
     hi['Boolean']                      = 'Constant'
     hi['Character']                    = 'Constant'
     hi['Float']                        = 'Constant'
-    hi['SpecialChar']                  = { fg = colors.violet, bg = none }
+    hi['SpecialChar']                  = { fg = colors.magenta, bg = none }
     hi['Identifier']                   = { fg = colors.fg_0, bg = none }
     hi['Function']                     = { fg = colors.fg_0, bg = none }
     hi['Statement']                    = { fg = colors.orange, bg = none }
