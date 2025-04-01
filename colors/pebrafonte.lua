@@ -15,24 +15,24 @@ local colors = {
         bg_2       = '#BBAF9B',
         dim_0      = '#72898f',
         fg_0       = '#250f1d',
-        fg_1       = '#170912',
+        fg_1       = '#363127',
         bg_15      = '#B5A792', -- bg_1 12% darker for subtle highlighting of embedded, selectable blocks
         dim_1      = '#90998f', -- yellowish dim_0 for things like autocomplete previews
-        red        = '#A0251C',
-        green      = '#2a9d7e',
+        red        = '#c0564b',
+        green      = '#005444',
         yellow     = '#DDAB5F',
         blue       = '#507885',
         magenta    = '#9e4771',
-        cyan       = '#297f68',
+        cyan       = '#236A57',
         orange     = '#9F6037',
-        violet     = '#b668cd',
+        violet     = '#c89ec7',
         br_red     = '#ff665c',
         br_green   = '#84c747',
         br_yellow  = '#ebc13d',
         br_blue    = '#58a3ff',
         br_magenta = '#ff84cd',
-        br_cyan    = '#53d6c7',
-        br_orange  = '#fd9456',
+        br_cyan    = '#6bbcd1',
+        br_orange  = '#ff8b5c',
         br_violet  = '#bd96fa',
     },
     -- dark version is not working yet
@@ -213,6 +213,10 @@ local highlights = function(colors)
 
     hi['Suggestion']                   = { fg = colors.dim_1, bg = none, italic = true }
     hi['SnippetTabstop']               = { fg = none, bg = colors.bg_1, italic = true }
+
+    -- neotree
+    hi['NeoTreeNormal']                = { bg = colors.bg_1 }
+    hi['NeoTreeNormalNC']              = { bg = colors.bg_2 }
 
     -- snippy nvim
     hi['SnippyPlaceholder']            = 'SnippetTabstop'
